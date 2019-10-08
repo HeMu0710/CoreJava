@@ -21,7 +21,7 @@ public class DrawTest {
 class DrawFrame extends JFrame {
     public DrawFrame() {
         DrawComponent p = new DrawComponent();
-        p.setBackground(Color.ORANGE);
+        p.setBackground(Color.GREEN);
         add(p);
         pack();
     }
@@ -42,7 +42,7 @@ class DrawComponent extends JComponent{
         Color defaultColor = g2.getColor();
 
         //set the color of background
-        g2.setColor(Color.PINK);
+        g2.setColor(bkgColor);
         Rectangle2D bkg = new Rectangle2D.Double(0,0,DEFAULT_WIDTH,DEFAULT_HEIGHT);
         g2.fill(bkg);
         g2.setColor(defaultColor);
