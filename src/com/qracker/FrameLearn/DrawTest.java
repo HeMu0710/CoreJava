@@ -42,7 +42,7 @@ class DrawComponent extends JComponent{
         Color defaultColor = g2.getColor();
 
         //set the color of background
-        g2.setColor(bkgColor);
+        g2.setColor(Color.PINK);
         Rectangle2D bkg = new Rectangle2D.Double(0,0,DEFAULT_WIDTH,DEFAULT_HEIGHT);
         g2.fill(bkg);
         g2.setColor(defaultColor);
