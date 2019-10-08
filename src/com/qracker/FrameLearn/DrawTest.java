@@ -13,7 +13,7 @@ public class DrawTest {
             JFrame frame = new DrawFrame();
             frame.setTitle("DrawFrame");
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            frame.setVisible(false);
+            frame.setVisible(true);
         });
     }
 }
